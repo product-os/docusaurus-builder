@@ -33,39 +33,46 @@ const config = {
 
   presets: [
     [
-      'classic',
+      '@docusaurus/preset-classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             '$REPO_URL/edit/$DEFAULT_BRANCH/',
           routeBasePath: '/'
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            '$REPO_URL/edit/$DEFAULT_BRANCH/',
-        },
+        blog: false,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-      }),
+      },
     ],
   ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        }
+      },
+      // THE NAVBAR NEEDS TO MATCH THE PRODUCT LANDING PAGE WEBSITE
       navbar: {
         title: '$PROJECT_NAME',
         logo: {
-          alt: '',
-          src: 'img/balena_icon.png',
+          alt: '$PROJECT_NAME logo',
+          src: 'img/logo.png',
         },
         items: [
           {
@@ -82,6 +89,7 @@ const config = {
       },
       footer: {
         style: 'dark',
+        // THE FOOTER NEEDS TO MATCH THE WEBSITE FOOTER
         // links: [
         //   {
         //     title: 'Docs',
@@ -119,7 +127,8 @@ const config = {
         //     ],
         //   },
         // ],
-        copyright: `Imagined by Balena. Built with Docusaurus.`,
+        // CAN WE GET REPO LICENSE TO GENERATE HERE?
+        copyright: `Imagined by balena. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
