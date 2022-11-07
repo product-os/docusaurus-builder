@@ -1,0 +1,7 @@
+**/.DS_Store
+*.swp
+*.swo
+.docusaurus
+node_modules
+build
+.vscode
