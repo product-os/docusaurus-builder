@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add slug to top level readme
+      hash: 2970a8aeaa595d5a9269c9493226109107c19042
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 0.1.1
+  title: ""
+  date: 2022-11-10T06:15:33.116Z
+- commits:
     - subject: Add bash script to replace contents in docusaurus config
       hash: 04a475da3dc1b4079b17ffecf55a597bc75da2bc
       body: ""

@@ -1,6 +1,6 @@
 {
   "name": "balena-docusaurus-template",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "docusaurus": "docusaurus",
@@ -46,6 +46,6 @@
     "node": ">=16.14"
   },
   "versionist": {
-    "publishedAt": "2022-11-08T10:18:25.048Z"
+    "publishedAt": "2022-11-10T06:15:33.179Z"
   }
 }
