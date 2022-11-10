@@ -1,4 +1,16 @@
 - commits:
+    - subject: Remove stray comma
+      hash: ab4a38ec56257cfcefc2e0dc23f7ade67e7805f6
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Anuj Deshpande
+      nested: []
+  version: 0.1.2
+  title: ""
+  date: 2022-11-10T06:24:32.747Z
+- commits:
     - subject: Add slug to top level readme
       hash: 2970a8aeaa595d5a9269c9493226109107c19042
       body: ""
