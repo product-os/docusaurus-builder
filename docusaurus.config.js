@@ -57,7 +57,6 @@ const config = {
             editUrl:
             '$REPO_URL/edit/$DEFAULT_BRANCH/',
         },
-,
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
