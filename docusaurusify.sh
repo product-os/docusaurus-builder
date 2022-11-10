@@ -1,5 +1,11 @@
 echo "This script is going to convert any repo with a docs folder and a README.md into a docusaurus project"
 
+cp -r ../docs/* docs/
+cp ../CHANGELOG.md docs/
+
+cat slug.txt > docs/README.md
+cat ../README.md >> docs/README.md
+
 # inputs from flowzone
 REPO_NAME=$1
 ORG_NAME=$2
