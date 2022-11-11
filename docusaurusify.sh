@@ -5,6 +5,8 @@ cp ../CHANGELOG.md docs/
 
 cat slug.txt > docs/README.md
 cat ../README.md >> docs/README.md
+# Replace all links that have .docs/ in top level README as we flatten the dir structure
+sed -i 's/(.\/docs/(.\//g' docs/README.md
 
 # inputs from flowzone
 REPO_NAME=$1
@@ -28,8 +30,6 @@ sed -i "s|\$EDIT_URL|${EDIT_URL}|g"  docusaurus.config.js
 sed -i "s|\$DEFAULT_BRANCH|${DEFAULT_BRANCH}|g"  docusaurus.config.js
 sed -i "s|\$TAGLINE|${TAGLINE}|g"  docusaurus.config.js
 sed -i "s|\$URL|${URL}|g"  docusaurus.config.js
-
-# Move filename prefix to `sidebar_position:` inside the file
 
 # Check that all variables have been replaced
 VARIABLE_COUNT=$(grep -E '\$' docusaurus.config.js  | wc -l)
