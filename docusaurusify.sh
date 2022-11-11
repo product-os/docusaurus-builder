@@ -8,6 +8,17 @@ cat ../README.md >> docs/README.md
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i 's/(.\/docs/(.\//g' docs/README.md
 
+# Replace logo file if it exits
+LOGO_PATH=../logo.png
+if test -f "$LOGO_PATH"; then
+    cp ../logo.png static/img/logo.png
+fi
+
+FAVICON_PATH=../favicon.ico
+if test -f "$FAVICON_PATH"; then
+    cp ../logo.png static/img/favicon.ico
+fi
+
 # inputs from flowzone
 REPO_NAME=$1
 ORG_NAME=$2
