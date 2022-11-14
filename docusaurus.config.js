@@ -47,15 +47,15 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            process.env.REPO_URL+'/edit/'+process.env.DEFAULT_BRANCH+'/',
+            process.env.REPO_URL + '/edit/' + process.env.DEFAULT_BRANCH + '/',
           routeBasePath: '/'
         },
-	blog: {
-            showReadingTime: true,
-            // Please change this to your repo.
-            // Remove this to remove the "edit this page" links.
-            editUrl:
-            process.env.REPO_URL+'/edit/'+process.env.DEFAULT_BRANCH+'/',
+        blog: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            process.env.REPO_URL + '/edit/' + process.env.DEFAULT_BRANCH + '/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,11 +75,13 @@ const config = {
       },
       navbar: {
         title: process.env.PROJECT_NAME,
+        hideOnScroll: true,
         logo: {
-          alt: process.env.PROJECT_NAME+"logo",
+          alt: process.env.PROJECT_NAME + "logo",
           src: 'img/logo.png',
         },
         items: [
+          // right
           {
             href: '/changelog',
             label: 'Change Log',
@@ -101,7 +103,8 @@ const config = {
               {
                 label: 'balenaCloud docs',
                 href: 'https://balena.io/docs',
-              },              {
+              },
+              {
                 label: 'Blog',
                 href: 'https://balena.io/blog',
               },
@@ -139,7 +142,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Imagined by balena. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Imagined by balena. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
