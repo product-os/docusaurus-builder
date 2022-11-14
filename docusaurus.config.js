@@ -73,7 +73,6 @@ const config = {
           autoCollapseCategories: true,
         }
       },
-      // THE NAVBAR NEEDS TO MATCH THE PRODUCT LANDING PAGE WEBSITE
       navbar: {
         title: process.env.PROJECT_NAME,
         logo: {
@@ -95,45 +94,51 @@ const config = {
       },
       footer: {
         style: 'dark',
-        // THE FOOTER NEEDS TO MATCH THE WEBSITE FOOTER
-        // links: [
-        //   {
-        //     title: 'Docs',
-        //     items: [
-        //       {
-        //         label: 'Tutorial',
-        //         to: '/docs/intro',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'Community',
-        //     items: [
-        //       {
-        //         label: 'Stack Overflow',
-        //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-        //       },
-        //       {
-        //         label: 'Discord',
-        //         href: 'https://discordapp.com/invite/docusaurus',
-        //       },
-        //       {
-        //         label: 'Twitter',
-        //         href: 'https://twitter.com/docusaurus',
-        //       },
-        //     ],
-        //   },
-        //   {
-        //     title: 'More',
-        //     items: [
-        //       {
-        //         label: 'GitHub',
-        //         href: 'https://github.com/balenaltd/handbook',
-        //       },
-        //     ],
-        //   },
-        // ],
-        // CAN WE GET REPO LICENSE TO GENERATE HERE?
+        links: [
+          {
+            title: 'More Resoruces',
+            items: [
+              {
+                label: 'balenaCloud docs',
+                href: 'https://balena.io/docs',
+              },              {
+                label: 'Blog',
+                href: 'https://balena.io/blog',
+              },
+              {
+                label: 'Website',
+                href: 'https://balena.io',
+              },
+            ],
+          },
+          {
+            title: 'Community',
+            items: [
+              {
+                label: 'Twitter',
+                href: 'https://twitter.com/balena_io',
+              },
+              {
+                label: 'Forums',
+                href: 'https://forums.balena.io/',
+              },
+
+            ],
+          },
+          {
+            title: 'More',
+            items: [
+              {
+                label: 'GitHub',
+                href: '$REPO_URL',
+              },
+              {
+                label: 'Raise an issue',
+                href: '$REPO_URL/issues/new',
+              },
+            ],
+          },
+        ],
         copyright: `Imagined by balena. Built with Docusaurus.`,
       },
       prism: {
