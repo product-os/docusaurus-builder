@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Change repo.yml repo type"
+      hash: 3966fe9e9889104eef448dfc5b4436bdc778473b
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 0.1.3
+  title: ""
+  date: 2022-11-15T13:40:00.926Z
+- commits:
     - subject: Remove stray comma
       hash: ab4a38ec56257cfcefc2e0dc23f7ade67e7805f6
       body: ""
