@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '$PROJECT_NAME',
-  tagline: '$TAGLINE',
-  url: '$URL',
+  title: process.env.PROJECT_NAME,
+  tagline: process.env.TAGLINE,
+  url: process.env.URL,
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -47,7 +47,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            '$REPO_URL/edit/$DEFAULT_BRANCH/',
+            process.env.REPO_URL+'/edit/'+process.env.DEFAULT_BRANCH+'/',
           routeBasePath: '/'
         },
 	blog: {
@@ -55,7 +55,7 @@ const config = {
             // Please change this to your repo.
             // Remove this to remove the "edit this page" links.
             editUrl:
-            '$REPO_URL/edit/$DEFAULT_BRANCH/',
+            process.env.REPO_URL+'/edit/'+process.env.DEFAULT_BRANCH+'/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -75,9 +75,9 @@ const config = {
       },
       // THE NAVBAR NEEDS TO MATCH THE PRODUCT LANDING PAGE WEBSITE
       navbar: {
-        title: '$PROJECT_NAME',
+        title: process.env.PROJECT_NAME,
         logo: {
-          alt: '$PROJECT_NAME logo',
+          alt: process.env.PROJECT_NAME+"logo",
           src: 'img/logo.png',
         },
         items: [
@@ -87,7 +87,7 @@ const config = {
             position: 'right',
           },
           {
-            href: '$REPO_URL',
+            href: process.env.REPO_URL,
             label: 'Edit on GitHub',
             position: 'right',
           },
