@@ -16,6 +16,13 @@ inputs:
     description: The URL that site will be hosted on
     required: true
 outputs:
-  deployed_url:
-    description: The URL that the site is deployed on
-  
+  status:
+    description: Build status of `npm run build`
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.repo }}
+    - ${{ inputs.org }}
+    - ${{ inputs.url }}
+    
