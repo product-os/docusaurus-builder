@@ -1,5 +1,8 @@
 #!/bin/sh -l
 
-echo "Hello $1 $2 $3"
-time=$(date)
-echo "time=$time" >> $GITHUB_OUTPUT
+echo "Inputs: $1 $2 $3 $4"
+. /app/docusaurusify.sh $1 $2 $3 $4
+cd /app
+npm ci
+npm run build
+cp -rf /app/build /github/workspace

@@ -12,17 +12,18 @@ inputs:
     description: The name of the org
     required: true
     default: 'balena-org'
+  default_branch:
+    description: The name of the default branch
+    required: true
+    default: 'master'
   url:
     description: The URL that site will be hosted on
     required: true
-outputs:
-  status:
-    description: Build status of `npm run build`
 runs:
   using: 'docker'
   image: 'Dockerfile'
   args:
     - ${{ inputs.repo }}
     - ${{ inputs.org }}
+    - ${{ inputs.default_branch }}
     - ${{ inputs.url }}
-    

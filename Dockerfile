@@ -1,3 +1,5 @@
 FROM node:18
-COPY entrypoint.sh /entrypoint.sh
-ENTRYPOINT ["/entrypoint.sh"]
+
+WORKDIR /app
+COPY . .
+ENTRYPOINT [ "/bin/bash", "/app/entrypoint.sh" ]
