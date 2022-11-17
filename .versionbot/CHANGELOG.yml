@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add action.yml
+      hash: 363078d109ee9ca4f1a7e3ccac930f6b263bb268
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+      author: Anuj Deshpande
+      nested: []
+  version: 1.0.0
+  title: ""
+  date: 2022-11-17T06:36:10.208Z
+- commits:
     - subject: Use process.env instead of sed
       hash: 73681aa386bc3168d5e336ad94fcc4776deb493a
       body: ""
