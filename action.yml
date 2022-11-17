@@ -1,0 +1,21 @@
+name: Docusaurus Builder
+description: Create a docusaurus site from a repo
+branding:
+  icon: globe
+  color: blue
+inputs:
+  repo:
+    description: The name of the repo
+    required: true
+    default: 'balena-repo'
+  org:
+    description: The name of the org
+    required: true
+    default: 'balena-org'
+  url:
+    description: The URL that site will be hosted on
+    required: true
+outputs:
+  deployed_url:
+    description: The URL that the site is deployed on
+  
