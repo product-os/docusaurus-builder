@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add missing input default branch
+      hash: aeabd1abdb33518bd46ffb8584371e1f272bca56
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Anuj Deshpande
+      nested: []
+  version: 1.1.0
+  title: ""
+  date: 2022-11-17T10:02:09.636Z
+- commits:
     - subject: Add action.yml
       hash: 363078d109ee9ca4f1a7e3ccac930f6b263bb268
       body: ""
