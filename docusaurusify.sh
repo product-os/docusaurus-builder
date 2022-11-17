@@ -11,37 +11,21 @@ sed -i 's/(.\/docs/(.\//g' docs/README.md
 # Replace logo file if it exits
 LOGO_PATH=../logo.png
 if test -f "$LOGO_PATH"; then
-    cp ../logo.png static/img/logo.png
+    cp $LOGO_PATH static/img/logo.png
 fi
 
 FAVICON_PATH=../favicon.ico
 if test -f "$FAVICON_PATH"; then
-    cp ../logo.png static/img/favicon.ico
+    cp $FAVICON_PATH static/img/favicon.ico
 fi
 
 # inputs from flowzone
-REPO_NAME=$1
-ORG_NAME=$2
-DEFAULT_BRANCH=$3
-URL=$4 # Should be received from Cloudflare Pages project
+export REPO_NAME=$1
+export ORG_NAME=$2
+export DEFAULT_BRANCH=$3
+export URL=$4 # Should be received from Cloudflare Pages project
 
 # derived strings from inputs
-PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<< $REPO_NAME)
-TAGLINE='A Balena project'
-REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
-
-# FAVICON=defaults to balena
-echo $PROJECT_NAME
-
-# Replace variables with their values in the config
-
-sed -i "s|\$REPO_URL|${REPO_URL}|g"  docusaurus.config.js
-sed -i "s|\$PROJECT_NAME|${PROJECT_NAME}|g"  docusaurus.config.js
-sed -i "s|\$EDIT_URL|${EDIT_URL}|g"  docusaurus.config.js
-sed -i "s|\$DEFAULT_BRANCH|${DEFAULT_BRANCH}|g"  docusaurus.config.js
-sed -i "s|\$TAGLINE|${TAGLINE}|g"  docusaurus.config.js
-sed -i "s|\$URL|${URL}|g"  docusaurus.config.js
-
-# Check that all variables have been replaced
-VARIABLE_COUNT=$(grep -E '\$' docusaurus.config.js  | wc -l)
-echo $VARIABLE_COUNT
+export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<< $REPO_NAME)
+export TAGLINE='A Balena project'
+export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
