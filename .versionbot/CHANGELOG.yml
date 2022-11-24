@@ -1,4 +1,16 @@
 - commits:
+    - subject: Add mermaid plugin
+      hash: 3778175714441065da220828ed6e2c09fbe45c9d
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Anuj Deshpande
+      nested: []
+  version: 1.2.0
+  title: ""
+  date: 2022-11-24T05:47:24.656Z
+- commits:
     - subject: Add missing input default branch
       hash: aeabd1abdb33518bd46ffb8584371e1f272bca56
       body: ""
