@@ -1,4 +1,16 @@
 - commits:
+    - subject: "Flowzone: use inherited secrets"
+      hash: 26dba49e80d207fb7cf0efef5d4040a88726ef33
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Page-
+      nested: []
+  version: 1.1.2
+  title: ""
+  date: 2022-11-29T18:38:46.044Z
+- commits:
     - subject: "patch: Add test script to flowzone"
       hash: 5eff3d96a0af991a8522465c90578e37013aef26
       body: ""
