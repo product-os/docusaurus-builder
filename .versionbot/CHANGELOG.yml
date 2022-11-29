@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Remove sitemap plugin"
+      hash: 6303b7da90efe30132b7e2b7471b9b4fec23f92e
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.4
+  title: ""
+  date: 2022-11-29T19:47:03.761Z
+- commits:
     - subject: "patch: Add Footer to theme"
       hash: 1f6878223466232af63e50a82b1381249575c7a5
       body: ""
