@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Replace URLs with enviroment variable"
+      hash: 4e86dd255151b970ad4e2e41ba10fca4a890718f
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.5
+  title: ""
+  date: 2022-12-05T21:28:12.416Z
+- commits:
     - subject: "patch: Remove sitemap plugin"
       hash: 6303b7da90efe30132b7e2b7471b9b4fec23f92e
       body: ""
