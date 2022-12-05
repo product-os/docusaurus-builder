@@ -2,11 +2,17 @@
 
 echo "This script is going to convert any repo with a docs folder and a README.md into a docusaurus project"
 
-cp -r $GITHUB_WORKSPACE/docs/* /app/docs/
+if test -f "$GITHUB_WORKSPACE/balena-docs"; then
+    DOCS_PATH = $GITHUB_WORKSPACE/balena-docs
+else
+    DOCS_PATH = $GITHUB_WORKSPACE/docs
+fi
+
+cp -r $DOCS_PATH* /app/docs/
 cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
 
-cat /app/slug.txt > /app/docs/README.md
-cat $GITHUB_WORKSPACE/README.md >> /app/docs/README.md
+cat /app/slug.txt >/app/docs/README.md
+cat $GITHUB_WORKSPACE/README.md >>/app/docs/README.md
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i 's/(.\/docs/(.\//g' /app/docs/README.md
 
@@ -28,6 +34,6 @@ export DEFAULT_BRANCH=$3
 export URL=$4 # Should be received from Cloudflare Pages project
 
 # derived strings from inputs
-export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<< $REPO_NAME)
+export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<<$REPO_NAME)
 export TAGLINE='A Balena project'
 export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
