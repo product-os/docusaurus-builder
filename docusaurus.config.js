@@ -84,7 +84,7 @@ const config = {
           // right
           {
             href: '/changelog',
-            label: 'Change Log',
+            label: 'Changelog',
             position: 'right',
           },
           {
@@ -133,11 +133,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: '$REPO_URL',
+                href: process.env.REPO_URL,
               },
               {
                 label: 'Raise an issue',
-                href: '$REPO_URL/issues/new',
+                href: process.env.REPO_URL + '/issues/new',
               },
             ],
           },
