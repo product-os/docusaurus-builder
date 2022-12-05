@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Add balena-docs as path to look for docs"
+      hash: 5f8042873c8d8806d961a805c099b5d3d0e01e80
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.6
+  title: ""
+  date: 2022-12-05T21:55:32.464Z
+- commits:
     - subject: "patch: Replace URLs with enviroment variable"
       hash: 4e86dd255151b970ad4e2e41ba10fca4a890718f
       body: ""
