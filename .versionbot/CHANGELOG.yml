@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Expand sed regex to catch more usecases"
+      hash: 2ee2eb6d01f825561c59a0ad3c1a763b7c499fab
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.11
+  title: ""
+  date: 2022-12-06T15:48:07.506Z
+- commits:
     - subject: "patch: Copy README file instead of appending"
       hash: c43f356ac54407f225139961805d3d8ea859f35b
       body: ""
