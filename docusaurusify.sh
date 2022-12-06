@@ -9,13 +9,13 @@ else
 fi
 echo "Chosen path for docs: $DOCS_PATH"
 
-# Move docs to build folder
+# Copy docs to build folder
 cp -r $DOCS_PATH* /app/docs/
 
-# Move Changelog & README to docs build folder
+# Copy Changelog & README to docs build folder
 # cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
 ls -la /app/docs/
-cat $GITHUB_WORKSPACE/README.md >>/app/docs/README.md
+cp $GITHUB_WORKSPACE/README.md /app/docs/README.md
 
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i 's/(.\/docs/(.\//g' /app/docs/README.md
