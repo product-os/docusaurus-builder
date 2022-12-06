@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Redirect Changelog to external link"
+      hash: 5410f08b4d9aef372827a7ff5b59a6aa9e94a8ff
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.9
+  title: ""
+  date: 2022-12-06T13:15:09.615Z
+- commits:
     - subject: "patch: Rectify directory existing logic"
       hash: 1d979c9e3f3577de64fb3029c295e1a6b2bd03aa
       body: ""
