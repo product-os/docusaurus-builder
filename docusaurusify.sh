@@ -18,7 +18,7 @@ ls -la /app/docs/
 cp $GITHUB_WORKSPACE/README.md /app/docs/README.md
 
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
-sed -i 's/(.\/docs/(.\//g' /app/docs/README.md
+sed -i -r 's|\((\./)?docs/|\(\./|g' /app/docs/README.md
 
 # Replace logo file if it exits
 LOGO_PATH=$GITHUB_WORKSPACE/logo.png
