@@ -11,7 +11,7 @@ const config = {
   url: process.env.URL,
   baseUrl: '/',
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico', // use default, but overide if available
 
   // Even if you don't use internalization, you can use this field to set useful
