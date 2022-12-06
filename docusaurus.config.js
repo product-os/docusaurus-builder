@@ -83,7 +83,7 @@ const config = {
         items: [
           // right
           {
-            href: '/changelog',
+            href: `${process.env.REPO_URL}/blob/${process.env.DEFAULT_BRANCH}/CHANGELOG.md`,
             label: 'Changelog',
             position: 'right',
           },

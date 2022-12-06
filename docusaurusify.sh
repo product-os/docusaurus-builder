@@ -13,7 +13,7 @@ echo "Chosen path for docs: $DOCS_PATH"
 cp -r $DOCS_PATH* /app/docs/
 
 # Move Changelog & README to docs build folder
-cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
+# cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
 ls -la /app/docs/
 cat $GITHUB_WORKSPACE/README.md >>/app/docs/README.md
 
