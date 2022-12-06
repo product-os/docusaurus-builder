@@ -1,18 +1,22 @@
 #!/usr/bin/env bash
 
-echo "This script is going to convert any repo with a docs folder and a README.md into a docusaurus project"
+echo "Converting $2/$1 repo docs into a docusaurus project"
 
-if test -f "$GITHUB_WORKSPACE/balena-docs"; then
+if [ -d "$GITHUB_WORKSPACE/balena-docs" ]; then
     DOCS_PATH=$GITHUB_WORKSPACE/balena-docs/
 else
     DOCS_PATH=$GITHUB_WORKSPACE/docs/
 fi
+echo "Chosen path for docs: $DOCS_PATH"
 
+# Move docs to build folder
 cp -r $DOCS_PATH* /app/docs/
-cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
 
-cat /app/slug.txt >/app/docs/README.md
+# Move Changelog & README to docs build folder
+cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
+ls -la /app/docs/
 cat $GITHUB_WORKSPACE/README.md >>/app/docs/README.md
+
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i 's/(.\/docs/(.\//g' /app/docs/README.md
 
