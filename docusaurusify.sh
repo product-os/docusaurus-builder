@@ -3,9 +3,9 @@
 echo "This script is going to convert any repo with a docs folder and a README.md into a docusaurus project"
 
 if test -f "$GITHUB_WORKSPACE/balena-docs"; then
-    DOCS_PATH = $GITHUB_WORKSPACE/balena-docs
+    DOCS_PATH=$GITHUB_WORKSPACE/balena-docs/
 else
-    DOCS_PATH = $GITHUB_WORKSPACE/docs
+    DOCS_PATH=$GITHUB_WORKSPACE/docs/
 fi
 
 cp -r $DOCS_PATH* /app/docs/
