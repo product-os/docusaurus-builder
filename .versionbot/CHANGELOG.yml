@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Rectify directory existing logic"
+      hash: 1d979c9e3f3577de64fb3029c295e1a6b2bd03aa
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.8
+  title: ""
+  date: 2022-12-06T12:15:21.345Z
+- commits:
     - subject: "patch: Fix docusaurusify script DOCS_PATH variable"
       hash: e13ae0cfc95f561afa4b5b36af51a4a7fe20721f
       body: ""
