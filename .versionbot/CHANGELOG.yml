@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Fix docusaurusify script DOCS_PATH variable"
+      hash: e13ae0cfc95f561afa4b5b36af51a4a7fe20721f
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.7
+  title: ""
+  date: 2022-12-06T11:06:15.986Z
+- commits:
     - subject: "patch: Add balena-docs as path to look for docs"
       hash: 5f8042873c8d8806d961a805c099b5d3d0e01e80
       body: ""
