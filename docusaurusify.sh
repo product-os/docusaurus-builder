@@ -20,6 +20,8 @@ cp $GITHUB_WORKSPACE/README.md /app/docs/README.md
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i -r 's|\((\./)?docs/|\(\./|g' /app/docs/README.md
 
+head -n 15 /app/docs/README.md
+
 # Replace logo file if it exits
 LOGO_PATH=$GITHUB_WORKSPACE/logo.png
 if test -f "$LOGO_PATH"; then
