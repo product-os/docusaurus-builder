@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Copy README if it doesn't exist"
+      hash: b885917fd86009dec58f788bc045f6865f9fd64f
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.1.12
+  title: ""
+  date: 2022-12-07T12:51:50.947Z
+- commits:
     - subject: "patch: Expand sed regex to catch more usecases"
       hash: 2ee2eb6d01f825561c59a0ad3c1a763b7c499fab
       body: ""
