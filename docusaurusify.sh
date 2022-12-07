@@ -12,10 +12,14 @@ echo "Chosen path for docs: $DOCS_PATH"
 # Copy docs to build folder
 cp -r $DOCS_PATH* /app/docs/
 
-# Copy Changelog & README to docs build folder
+# Copy Changelog to docs build folder
+# https://github.com/product-os/docusaurus-theme/issues/24
 # cp $GITHUB_WORKSPACE/CHANGELOG.md /app/docs/
-ls -la /app/docs/
-cp $GITHUB_WORKSPACE/README.md /app/docs/README.md
+
+# Copy README if it doesn't exists
+if [ ! -e "/app/docs/README.md" ]; then
+    cp $GITHUB_WORKSPACE/README.md /app/docs/README.md
+fi
 
 # Replace all links that have .docs/ in top level README as we flatten the dir structure
 sed -i -r 's|\((\./)?docs/|\(\./|g' /app/docs/README.md
