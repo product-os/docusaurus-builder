@@ -1,4 +1,28 @@
 - commits:
+    - subject: Put repo_url back
+      hash: 3bd9939f3921d906bd3af561582e22c876d231d3
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+    - subject: Fixed extract command
+      hash: 7775c216bf9086f23536029c47f58d065475b5a8
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.2
+  title: ""
+  date: 2022-12-08T10:10:08.145Z
+- commits:
     - subject: Changed conditional structure
       hash: c24dfd6c574efa74de19cf2a88f40765e389250f
       body: ""
