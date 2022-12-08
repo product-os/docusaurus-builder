@@ -41,17 +41,6 @@ export ORG_NAME=$2
 export DEFAULT_BRANCH=$3
 export URL=$4 # Should be received from Cloudflare Pages project
 
-# attempt to extract metadata from README.md else use defaults
-if /app/extract-meta.sh "/app/docs/README.md"; then
-    echo "Extracted metadata from README.md"
-    source /app/environment.sh
-    export PROJECT_NAME=$PROJECT_NAME
-    export TAGLINE=$TAGLINE
-else
-    # derived strings from inputs
-    echo "Using project defaults"
-    export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<<$REPO_NAME)
-    export TAGLINE='A Balena project'
-fi
-
+# derived strings from inputs
+export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<<$REPO_NAME)
 export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
