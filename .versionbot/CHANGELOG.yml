@@ -1,4 +1,18 @@
 - commits:
+    - subject: Changed conditional structure
+      hash: c24dfd6c574efa74de19cf2a88f40765e389250f
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.1
+  title: ""
+  date: 2022-12-08T09:32:52.358Z
+- commits:
     - subject: Adds extracting project_name and tagline from README.md
       hash: 570e9ee1e86bea2e4f405f61c7d6dddcb94baaf4
       body: ""
