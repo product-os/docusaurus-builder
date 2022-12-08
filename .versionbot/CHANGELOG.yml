@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fixed file paths
+      hash: e123300195cc45d4a1adde689b7a29274f3626f0
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.3
+  title: ""
+  date: 2022-12-08T10:44:55.201Z
+- commits:
     - subject: Put repo_url back
       hash: 3bd9939f3921d906bd3af561582e22c876d231d3
       body: ""
