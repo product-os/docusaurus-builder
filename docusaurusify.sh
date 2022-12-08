@@ -44,6 +44,9 @@ export URL=$4 # Should be received from Cloudflare Pages project
 # attempt to extract metadata from README.md else use defaults
 if /app/extract-meta.sh "/app/docs/README.md"; then
     echo "Extracted metadata from README.md"
+    source /app/environment.sh
+    export PROJECT_NAME=$PROJECT_NAME
+    export TAGLINE=$TAGLINE
 else
     # derived strings from inputs
     echo "Using project defaults"

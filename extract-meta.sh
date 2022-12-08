@@ -27,7 +27,6 @@ function parse_yaml {
 if [ -s $meta ]; then
     echo "Writing metadata to environment.sh"
     parse_yaml /app/meta.yml > /app/environment.sh
-    . /app/environment.sh
 else
     echo "No metadata found."
     rm /app/meta.yml
