@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fixed exported variables
+      hash: a03895579e0ae5989f1f1c1cedb08dacb6f8659e
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.5
+  title: ""
+  date: 2022-12-08T11:04:16.155Z
+- commits:
     - subject: "patch: Delete sample README in theme"
       hash: 3b3ce469f6afcce6abc4de12aa6b91f40de2efea
       body: ""
