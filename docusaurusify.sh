@@ -42,7 +42,7 @@ export DEFAULT_BRANCH=$3
 export URL=$4 # Should be received from Cloudflare Pages project
 
 # attempt to extract metadata from README.md else use defaults
-if ./extract-meta.sh "/app/docs/README.md"; then
+if /app/extract-meta.sh "/app/docs/README.md"; then
     echo "Extracted metadata from README.md"
 else
     # derived strings from inputs

@@ -1,10 +1,9 @@
 #!/bin/bash
 
 readme="$1"
-meta="meta.yml"
 
 # Use sed to match the pattern and print the matched lines to the output file
-sed -n '/^---$/,/^---$/p' "$readme" | sed '1d;$d' > "$meta"
+sed -n '/^---$/,/^---$/p' "$readme" | sed '1d;$d' > /app/meta.yml
 
 # Kindly borrowed from https://stackoverflow.com/questions/5014632/how-can-i-parse-a-yaml-file-from-a-linux-shell-script
 function parse_yaml {
@@ -27,10 +26,10 @@ function parse_yaml {
 # Check if file is populated then export to environment
 if [ -s $meta ]; then
     echo "Writing metadata to environment.sh"
-    parse_yaml $meta > environment.sh
-    . ./environment.sh
+    parse_yaml /app/meta.yml > /app/environment.sh
+    . /app/environment.sh
 else
     echo "No metadata found."
-    rm $meta
+    rm /app/meta.yml
     exit 1
 fi
