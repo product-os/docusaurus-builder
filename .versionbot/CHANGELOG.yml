@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Delete sample README in theme"
+      hash: 3b3ce469f6afcce6abc4de12aa6b91f40de2efea
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.2.4
+  title: ""
+  date: 2022-12-08T10:57:03.427Z
+- commits:
     - subject: Fixed file paths
       hash: e123300195cc45d4a1adde689b7a29274f3626f0
       body: ""
