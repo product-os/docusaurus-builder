@@ -1,14 +1,25 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
+const { read } = require('gray-matter')
+
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+function getFrontmatter(field) {
+  try {
+    const readme = read('/app/docs/README.md', { excerpt: true });
+    console.log(`Using ${readme.data[field]} as website ${field}`)
+    return readme.data[field]
+  } catch (error) {
+    throw error
+  }
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: process.env.PROJECT_NAME,
-  tagline: process.env.TAGLINE,
-  url: process.env.URL,
+  title: getFrontmatter('project_name') || process.env.PROJECT_NAME || "",
+  url: process.env.URL || "",
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
@@ -74,10 +85,10 @@ const config = {
         }
       },
       navbar: {
-        title: process.env.PROJECT_NAME,
+        title: getFrontmatter('project_name') || process.env.PROJECT_NAME || "",
         hideOnScroll: true,
         logo: {
-          alt: process.env.PROJECT_NAME + "logo",
+          alt: (getFrontmatter('project_name') || process.env.PROJECT_NAME || "") + "logo",
           src: 'img/logo.png',
         },
         items: [
