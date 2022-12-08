@@ -1,4 +1,18 @@
 - commits:
+    - subject: Handled logging when missing frontmatter
+      hash: 9e0e4099fd023a2450e75f0c23aef588eb87df70
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.7
+  title: ""
+  date: 2022-12-08T12:56:31.637Z
+- commits:
     - subject: Use grey-matter to parse frontmatter
       hash: e30de915b24a4e139f85848c2fea370253c56544
       body: ""
