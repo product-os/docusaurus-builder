@@ -1,4 +1,18 @@
 - commits:
+    - subject: Use grey-matter to parse frontmatter
+      hash: e30de915b24a4e139f85848c2fea370253c56544
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.6
+  title: ""
+  date: 2022-12-08T12:22:31.667Z
+- commits:
     - subject: Fixed exported variables
       hash: a03895579e0ae5989f1f1c1cedb08dacb6f8659e
       body: ""
