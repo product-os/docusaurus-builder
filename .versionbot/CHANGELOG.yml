@@ -1,4 +1,18 @@
 - commits:
+    - subject: use correct path for readme
+      hash: 2f5736b155dc242ffd76071b4c0b5bb02ceeecc1
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.8
+  title: ""
+  date: 2022-12-08T13:07:39.285Z
+- commits:
     - subject: Handled logging when missing frontmatter
       hash: 9e0e4099fd023a2450e75f0c23aef588eb87df70
       body: ""
