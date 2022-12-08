@@ -8,9 +8,12 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 function getFrontmatter(field) {
   try {
-    const readme = read('/app/docs/README.md', { excerpt: true });
-    console.log(`Using ${readme.data[field]} as website ${field}`)
-    return readme.data[field]
+    const readme = read('./README.md', { excerpt: true });
+    if (typeof readme.data[field] !== 'undefined') {
+      console.log(`Using ${readme.data[field]} as website ${field}`)
+      return readme.data[field]
+    }
+    console.log(`Cannot find ${field} in README.md, using default value`)
   } catch (error) {
     throw error
   }
