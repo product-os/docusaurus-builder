@@ -49,5 +49,6 @@ else
     echo "Using project defaults"
     export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<<$REPO_NAME)
     export TAGLINE='A Balena project'
-    export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
 fi
+
+export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
