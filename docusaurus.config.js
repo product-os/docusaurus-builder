@@ -8,12 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 function getFrontmatter(field) {
   try {
-    const readme = read('./README.md', { excerpt: true });
+    const readme = read('/app/docs/README.md', { excerpt: true });
     if (typeof readme.data[field] !== 'undefined') {
       console.log(`Using ${readme.data[field]} as website ${field}`)
       return readme.data[field]
     }
-    console.log(`Cannot find ${field} in README.md, using default value`)
+    else {
+      console.log(`Cannot find ${field} in README.md, using default value - ${process.env.PROJECT_NAME}`)
+      return process.env.PROJECT_NAME
+    }
   } catch (error) {
     throw error
   }
@@ -21,7 +24,7 @@ function getFrontmatter(field) {
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: getFrontmatter('project_name') || process.env.PROJECT_NAME || "",
+  title: getFrontmatter('project_name') || "",
   url: process.env.URL || "",
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -88,10 +91,10 @@ const config = {
         }
       },
       navbar: {
-        title: getFrontmatter('project_name') || process.env.PROJECT_NAME || "",
+        title: getFrontmatter('project_name') || "",
         hideOnScroll: true,
         logo: {
-          alt: (getFrontmatter('project_name') || process.env.PROJECT_NAME || "") + "logo",
+          alt: (getFrontmatter('project_name') || "") + "logo",
           src: 'img/logo.png',
         },
         items: [
