@@ -42,11 +42,12 @@ export DEFAULT_BRANCH=$3
 export URL=$4 # Should be received from Cloudflare Pages project
 
 # attempt to extract metadata from README.md else use defaults
-{ 
-    ./extract-meta.sh /app/docs/README.md &&
-} || {
+if ./extract-meta.sh /app/docs/README.md &&; then
+    printf "Extracted metadata from README.md\n"
+else
     # derived strings from inputs
+    printf "Using project defaults\n"
     export PROJECT_NAME=$(sed 's/^./\u&/; s/-\(.\)/ \u\1/g' <<<$REPO_NAME)
     export TAGLINE='A Balena project'
     export REPO_URL=https://github.com/$ORG_NAME/$REPO_NAME
-}
+fi
