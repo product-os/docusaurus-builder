@@ -1,4 +1,18 @@
 - commits:
+    - subject: Adds extracting project_name and tagline from README.md
+      hash: 570e9ee1e86bea2e4f405f61c7d6dddcb94baaf4
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.2.0
+  title: ""
+  date: 2022-12-08T09:17:48.033Z
+- commits:
     - subject: "patch: Copy README if it doesn't exist"
       hash: b885917fd86009dec58f788bc045f6865f9fd64f
       body: ""
