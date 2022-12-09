@@ -6,27 +6,37 @@ const { read } = require('gray-matter')
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-function getFrontmatter(field) {
+/**
+ * Parses Frontmatter properties in files to be used in docusaurus config
+ * 
+ * @throws error only to educate users to add files like README. Error can be optional in the future.
+ * @param {*} field string 
+ * @param {*} filepath string
+ * @returns frontmatter value if found.
+ */
+function getFrontmatter(field, filepath = '/app/docs/README.md') {
   try {
-    const readme = read('/app/docs/README.md', { excerpt: true });
-    if (typeof readme.data[field] !== 'undefined') {
-      console.log(`Using ${readme.data[field]} as website ${field}`)
-      return readme.data[field]
+    const content = read(filepath, { excerpt: true });
+    if (typeof content.data[field] !== 'undefined') {
+      console.log(`Using ${content.data[field]} as website ${field}`)
+      return content.data[field]
     }
     else {
-      console.log(`Cannot find ${field} in README.md, using default value - ${process.env.PROJECT_NAME}`)
-      return process.env.PROJECT_NAME
+      console.log(`Cannot find ${field} in ${filepath}, using defaults.`)
     }
   } catch (error) {
-    throw error
+    throw new Error(`Frontmatter error: ${error}`)
   }
 }
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: getFrontmatter('project_name') || "",
+  // Required properties
+  title: getFrontmatter('project_name') || process.env.PROJECT_NAME,
   url: process.env.URL || "",
   baseUrl: '/',
+
+  // Optional 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'throw',
   favicon: 'img/favicon.ico', // use default, but overide if available
@@ -43,6 +53,9 @@ const config = {
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
       {
+        // whether to index docs pages
+        indexDocs: true,
+        // whether to index static pages
         indexPages: false
       },
     ],
@@ -91,10 +104,10 @@ const config = {
         }
       },
       navbar: {
-        title: getFrontmatter('project_name') || "",
+        title: getFrontmatter('project_name') || process.env.PROJECT_NAME,
         hideOnScroll: true,
         logo: {
-          alt: (getFrontmatter('project_name') || "") + "logo",
+          alt: (getFrontmatter('project_name') || process.env.PROJECT_NAME) + "logo",
           src: 'img/logo.png',
         },
         items: [
