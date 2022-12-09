@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Make getFrontmatter dynamic"
+      hash: f043fcb9c267a3554532a3824cd82479ab14651e
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.2.9
+  title: ""
+  date: 2022-12-09T10:48:07.965Z
+- commits:
     - subject: use correct path for readme
       hash: 2f5736b155dc242ffd76071b4c0b5bb02ceeecc1
       body: ""
