@@ -1,8 +1,10 @@
 # Balena Docusaurus Theme
 
-> Generate clear docs websites for your projects with zero configuration
+> The `create-react-app` version of building docusaurus websites
 
-This is the official theme for balena docs. Websites is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator. The repository is host to a customized docusarus theme and it's GitHub action. The GitHub action parses, prepares and generates documentation when running on a GitHub repository.
+This is the official Docusaurus theme for balena docs. [Docusaurus 2](https://docusaurus.io/)is a modern static website generator that we used to generate docs. This repository hosts a customized docusarus theme and a docusaurus builder GitHub action. 
+
+The GitHub action parses, prepares and generates documentation when running on a GitHub repository. The website that is built by the builder is automatically deployed on Cloudflare Pages for previews.
 
 ![](https://user-images.githubusercontent.com/22801822/206838272-e3a2990b-4855-4e71-b9da-7270357c2028.png)
 
