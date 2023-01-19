@@ -1,0 +1,7 @@
+version: '2'
+
+services: 
+  docusaurus-builder:
+    build: . 
+    ports:
+      - "80:80"
