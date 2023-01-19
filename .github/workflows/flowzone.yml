@@ -14,3 +14,4 @@ jobs:
     secrets: inherit
     with:
       cloudflare_website: docusaurus-builder
+      docker_images: ghcr.io/product-os/docusaurus-builder
