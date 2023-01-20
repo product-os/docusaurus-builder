@@ -6,7 +6,7 @@ if [ "$DEV" = 'true' ] ; then
     export URL="https://localhost"
     cp -rf /app/dev/docs /app
     cp -rf /app/dev/static /app/docs || true
-    cp -rf /app/dev/README.md /app/docs/README.md || true
+    cp -u /app/dev/README.md /app/docs/README.md || true
 else
     echo "Inputs: $1 $2 $3 $4"  
     . /app/docusaurusify.sh $1 $2 $3 $4
