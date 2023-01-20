@@ -1,4 +1,18 @@
 - commits:
+    - subject: Adds support for locally building using Docker
+      hash: ec31cd75cd1a3a6be7563d6c69b70b7176f8e00a
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.4.0
+  title: ""
+  date: 2023-01-20T17:28:20.692Z
+- commits:
     - subject: "minor: Add docusaurus builder docs"
       hash: 2b522a33f893fd5b8c573f24f0f376a5b729b6f2
       body: ""
