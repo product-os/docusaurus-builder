@@ -1,4 +1,18 @@
 - commits:
+    - subject: Fixes incorrect README.md
+      hash: cae3350a1ea4b29f7345b7247d79846ab7ed33ff
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+  version: 1.4.1
+  title: ""
+  date: 2023-01-23T11:00:44.643Z
+- commits:
     - subject: Adds support for locally building using Docker
       hash: ec31cd75cd1a3a6be7563d6c69b70b7176f8e00a
       body: ""
