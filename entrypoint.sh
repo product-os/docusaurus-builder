@@ -1,10 +1,12 @@
 #!/bin/sh -l
 
+# Remove Docusaurus default README.md
+rm /app/docs/README.md
+
 if [ "$DEV" = 'true' ] ; then
     echo "Development mode is enabled"
     export PROJECT_NAME="development build"
     export URL="https://localhost"
-    rm /app/docs/README.md
     cp -rf /app/dev/docs /app
     cp -rf /app/dev/static /app/docs || true
     cp -u /app/dev/README.md /app/docs/README.md || true
