@@ -9,6 +9,8 @@ if [ "$DEV" = 'true' ] ; then
     cp -u /app/dev/README.md /app/docs/README.md || true
 else
     echo "Inputs: $1 $2 $3 $4"  
+    # Remove the docusaurus default README.md
+    rm /app/docs/README.md
     . /app/docusaurusify.sh $1 $2 $3 $4
 fi
 
