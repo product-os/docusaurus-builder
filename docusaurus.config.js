@@ -116,7 +116,7 @@ const config = {
         items: [
           // right
           {
-            href: process.env.REPO_URL ? `${process.env.REPO_URL}/blob/${process.env.DEFAULT_BRANCH}/CHANGELOG.md` : 'http://localhost',
+            href: process.env.REPO_URL ? `${process.env.REPO_URL}/blob/${process.env.DEFAULT_BRANCH}/CHANGELOG.md` : process.env.DEV_REPO_URL,
             label: 'Changelog',
             position: 'right',
           },
@@ -126,7 +126,7 @@ const config = {
             position: 'right',
           },
           {
-            href: process.env.REPO_URL || 'http://localhost',
+            href: process.env.REPO_URL || process.env.DEV_REPO_URL,
             label: 'Edit on GitHub',
             position: 'right',
           },
@@ -174,11 +174,11 @@ const config = {
             items: [
               {
                 label: 'GitHub',
-                href: process.env.REPO_URL || 'http://localhost',
+                href: process.env.REPO_URL || process.env.DEV_REPO_URL,
               },
               {
                 label: 'Raise an issue',
-                href: (process.env.REPO_URL || 'http://localhost') + '/issues/new',
+                href: (process.env.REPO_URL || process.env.DEV_REPO_URL) + '/issues/new',
               },
             ],
           },
