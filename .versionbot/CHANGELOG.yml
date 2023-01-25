@@ -1,4 +1,26 @@
 - commits:
+    - subject: Added mermaid diagram example
+      hash: 3bdff94c88d031c48e6a2deef897852204e2ab70
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+        signed-off-by: Alex Bucknall <alex.bucknall@gmail.com>
+      author: Alex Bucknall
+      nested: []
+    - subject: Add mermaid plugin
+      hash: 810c48acb605b9b4a889453626c921fabe2760ec
+      body: ""
+      footer:
+        Change-type: minor
+        change-type: minor
+      author: Anuj Deshpande
+      nested: []
+  version: 1.5.0
+  title: ""
+  date: 2023-01-25T15:07:54.455Z
+- commits:
     - subject: "patch: Add Roadmap link to navbar & footer"
       hash: a1a15f51977fa2635b8a17710276bad3711d9cf4
       body: ""
