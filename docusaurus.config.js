@@ -118,6 +118,11 @@ const config = {
             position: 'right',
           },
           {
+            href: 'https://roadmap.balena.io/',
+            label: 'Roadmap',
+            position: 'right',
+          },
+          {
             href: process.env.REPO_URL || 'http://localhost',
             label: 'Edit on GitHub',
             position: 'right',
@@ -135,12 +140,12 @@ const config = {
                 href: 'https://balena.io/docs',
               },
               {
-                label: 'Blog',
-                href: 'https://balena.io/blog',
-              },
-              {
                 label: 'Website',
                 href: 'https://balena.io',
+              },
+              {
+                label: 'Blog',
+                href: 'https://balena.io/blog',
               },
             ],
           },
@@ -155,7 +160,10 @@ const config = {
                 label: 'Forums',
                 href: 'https://forums.balena.io/',
               },
-
+              {
+                label: 'Roadmap',
+                href: 'https://roadmap.balena.io/',
+              },
             ],
           },
           {
