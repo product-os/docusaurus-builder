@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Add Roadmap link to navbar & footer"
+      hash: a1a15f51977fa2635b8a17710276bad3711d9cf4
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.4.2
+  title: ""
+  date: 2023-01-25T14:20:23.041Z
+- commits:
     - subject: Fixes incorrect README.md
       hash: cae3350a1ea4b29f7345b7247d79846ab7ed33ff
       body: ""
