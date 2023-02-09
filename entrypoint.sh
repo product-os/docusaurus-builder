@@ -1,8 +1,5 @@
 #!/bin/sh -l
 
-# Remove Docusaurus default README.md
-# rm /app/docs/README.md
-
 if [ "$DEV" = 'true' ] ; then
     echo "Development mode is enabled"
     . /app/docusaurusify.sh
