@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Improve Dockerfile for better caching"
+      hash: da82ae0e044e831f75d2322d4b820ccd9bdf2611
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.5.1
+  title: ""
+  date: 2023-02-14T12:21:39.493Z
+- commits:
     - subject: Added mermaid diagram example
       hash: 3bdff94c88d031c48e6a2deef897852204e2ab70
       body: ""
