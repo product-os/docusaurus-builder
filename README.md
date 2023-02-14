@@ -125,5 +125,5 @@ Refer to the offical [docusaurus documentation](https://docusaurus.io/) on explo
 
 ```
 docker build . -t docs:latest
-docker run --rm -it -e "DEV=true" -v $(pwd):/app -p 80:80 docs:latest
+docker run --rm -it -e "DEV=true" -v $(pwd):/app/dev -p 80:80 docs:latest
 ```
