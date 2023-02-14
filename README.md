@@ -109,7 +109,7 @@ docker -v
 With `Docker` installed, open a shell in your terminal, navigate to the root of your project's repo and run the following command:
 
 ```bash
-docker run -it -e "DEV=true" -v $(pwd):/app/dev -p 80:80 ghcr.io/product-os/docusaurus-builder:latest
+docker run --rm -it -e "DEV=true" -v $(pwd):/app/dev -p 80:80 ghcr.io/product-os/docusaurus-builder:latest
 ```
 
 > Note - if you are trying to run this from Windows, please use powershell due to the availability of the $(pwd) command
@@ -118,3 +118,12 @@ Once you see a success message in your terminal, your docusaurus site will be av
 Be aware due limitations, features such as `hot-reloading` are no available and you will need to exit and re-run the `docker run ...` command generate a new site and view additional changes.
 
 To end and exit the session use `ctrl-c`.
+
+## Contributing 
+
+Refer to the offical [docusaurus documentation](https://docusaurus.io/) on exploring features and adding them to the docusaurus configuration here. To test your changes, the development docker image needs to be rebuilt. Use the following commands to initiate a fresh build of the docker image and create a container using that image. 
+
+```
+docker build . -t docs:latest
+docker run --rm -it -e "DEV=true" -v $(pwd):/app -p 80:80 docs:latest
+```
