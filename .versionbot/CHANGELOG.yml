@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Clean docs before building docusaurus"
+      hash: 22b04bdec682b79fc235c517dc78eb48dcd8586a
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipul@balena.io>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 1.5.3
+  title: ""
+  date: 2023-02-15T16:41:11.852Z
+- commits:
     - subject: "patch: Fix local build command"
       hash: 0d0156140bb0a678c2d2ae902d3bc678644d7e1e
       body: ""
