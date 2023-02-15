@@ -13,6 +13,9 @@ else
 fi
 echo "Chosen path for docs: $DOCS_PATH"
 
+# Cleaning existing docs of docusaurus builder 
+rm -rf /app/docs/**
+
 # Copy docs to build folder
 cp -r $DOCS_PATH* /app/docs/
 
