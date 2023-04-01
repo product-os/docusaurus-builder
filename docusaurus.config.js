@@ -97,6 +97,8 @@ const config = {
     ],
   ],
 
+  staticDirectories: ['static'],
+
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
