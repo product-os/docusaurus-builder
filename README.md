@@ -119,6 +119,14 @@ Be aware due limitations, features such as `hot-reloading` are no available and 
 
 To end and exit the session use `ctrl-c`.
 
+## Finding Preview Links
+
+Cloudflare Pages lets us create preview releases for each open pull request. To find the link, check out the action run for your pull request and click `Summary` as show below. On scrolling down, you fill find the summary containing the deploy logs from Cloudflare and if there is no error, you will find the Cloudflare Pages website link as well for your preview. 
+
+![](./docs/images/preview_links.png)
+
+You can find the link on the Flowzone run's Summary page or in the logs for the GitHub task `Deploy to Cloudflare`. 
+
 ## Contributing 
 
 Refer to the offical [docusaurus documentation](https://docusaurus.io/) on exploring features and adding them to the docusaurus configuration here. To test your changes, the development docker image needs to be rebuilt. Use the following commands to initiate a fresh build of the docker image and create a container using that image. 
