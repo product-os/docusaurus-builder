@@ -1,4 +1,18 @@
 - commits:
+    - subject: Upgrade Docusaurus to v3.0.1
+      hash: 55b9c852962aae46a22143dda639f473ef780a33
+      body: ""
+      footer:
+        Change-type: major
+        change-type: major
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.0.0
+  title: ""
+  date: 2023-12-18T16:47:35.657Z
+- commits:
     - subject: "minor: Pepare Docusaurus for v3 upgrade"
       hash: 60cbdd1c58386e3c8aa96b7801564148088a9cbd
       body: ""
