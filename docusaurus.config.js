@@ -3,9 +3,9 @@
 
 const { read } = require('gray-matter')
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
-
+const {themes} = require('prism-react-renderer');
+const lightCodeTheme = themes.github;
+const darkCodeTheme = themes.dracula;
 /**
  * Parses Frontmatter properties in files to be used in docusaurus config
  * 
@@ -106,6 +106,16 @@ const config = {
           autoCollapseCategories: true,
         }
       },
+      headTags: [
+        // Declare a <link> preconnect tag
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'preconnect',
+            href: 'https://balena.io',
+          },
+        }
+      ],
       navbar: {
         title: getFrontmatter('project_name') || process.env.PROJECT_NAME,
         hideOnScroll: true,
