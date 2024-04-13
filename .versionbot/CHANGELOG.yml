@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency typescript to v5.4.5
+      hash: 2334458aaea110d07e44ab4df263f30439448852
+      body: |
+        Update typescript from 5.4.4 to 5.4.5
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.0.3
+  title: ""
+  date: 2024-04-13T15:01:14.328Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.2.1
       hash: 0b8cb8944d1242f4943841d16e2ba34a07a7dba6
       body: |
