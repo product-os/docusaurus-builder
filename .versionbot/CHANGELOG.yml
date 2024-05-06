@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.3.2
+      hash: d65f1dee9881bc20be11e915fe4f471c4c1701a5
+      body: |
+        Update @docusaurus/types from 3.3.0 to 3.3.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.0.10
+  title: ""
+  date: 2024-05-06T15:02:58.032Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.3.0
       hash: ebe58f7f5db57fe1a42379905e9f394acccca2a6
       body: |
