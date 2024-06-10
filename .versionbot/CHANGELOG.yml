@@ -1,4 +1,17 @@
 - commits:
+    - subject: Lock file maintenance
+      hash: cf8085dd670ae104ab47e9484e8870e8b3cee6d7
+      body: |
+        Update
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.0.16
+  title: ""
+  date: 2024-06-10T01:18:24.869Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.4.0
       hash: 64027cc7bbc615e5684df10c364638dc1eafbb2c
       body: |
