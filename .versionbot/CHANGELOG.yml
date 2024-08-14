@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Override Cheerio to v1.0.0-rc.12"
+      hash: c52fce94a42d7136a40f2106478285956b3300cd
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.1.1
+  title: ""
+  date: 2024-08-14T15:59:11.864Z
+- commits:
     - subject: "minor: Update Docusaurus to v3.5.2"
       hash: b00ecf48e2f2b335570e4e32bd952b3312d16c77
       body: ""
