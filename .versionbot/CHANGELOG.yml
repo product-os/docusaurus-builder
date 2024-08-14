@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency cheerio to v1.0.0
+      hash: e92ae177d6e1f53a2faf19654d96b429aaf76b3d
+      body: |
+        Update cheerio from 1.0.0-rc.12 to 1.0.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.1.2
+  title: ""
+  date: 2024-08-14T17:02:49.645Z
+- commits:
     - subject: "patch: Override Cheerio to v1.0.0-rc.12"
       hash: c52fce94a42d7136a40f2106478285956b3300cd
       body: ""
