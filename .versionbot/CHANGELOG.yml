@@ -1,4 +1,16 @@
 - commits:
+    - subject: "minor: Update Docusaurus to v3.5.2"
+      hash: b00ecf48e2f2b335570e4e32bd952b3312d16c77
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.1.0
+  title: ""
+  date: 2024-08-14T14:48:19.239Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.5.1
       hash: 5d4b0b51a9db590d331c71d8a1f68af84b4fb216
       body: |
