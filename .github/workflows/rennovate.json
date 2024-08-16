@@ -1,0 +1,10 @@
+{
+  "extends": ["github>balena-io/renovate-config"],
+  "packageRules": [
+    {
+      "matchDatasources": ["npm"],
+      "matchPackageNames": ["cheerio"],
+      "enabled": false
+    }
+  ] 
+}
