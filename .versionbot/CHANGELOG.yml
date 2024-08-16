@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Configure rennovate to respect overrides in package.json"
+      hash: 1a5491092e257df2eba03f84b0b17d0d2e5d5b3a
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.1.3
+  title: ""
+  date: 2024-08-16T13:15:44.217Z
+- commits:
     - subject: Update dependency cheerio to v1.0.0
       hash: e92ae177d6e1f53a2faf19654d96b429aaf76b3d
       body: |
