@@ -1,4 +1,17 @@
 - commits:
+    - subject: Lock file maintenance
+      hash: daa7393d0362d205508e267c5f73672ba3b6c090
+      body: |
+        Update
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.1.4
+  title: ""
+  date: 2024-08-19T01:22:13.589Z
+- commits:
     - subject: "patch: Configure rennovate to respect overrides in package.json"
       hash: 1a5491092e257df2eba03f84b0b17d0d2e5d5b3a
       body: ""
