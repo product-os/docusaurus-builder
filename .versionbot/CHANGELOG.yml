@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Revert "Update dependency cheerio to v1.0.0" & remove local
+        search override'
+      hash: 0a7b286e906445631bdaf88553793932c52f6bc5
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+      nested: []
+  version: 2.1.6
+  title: ""
+  date: 2024-08-20T12:38:10.351Z
+- commits:
     - subject: Lock file maintenance
       hash: 29e3c2296110ce456786ef12cdd3463a975ba543
       body: |
