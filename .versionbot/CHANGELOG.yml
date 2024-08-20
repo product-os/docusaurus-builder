@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Exit 1 if docusaurus build fails"
+      hash: 58f387b651bc8827ec2d067fd69b0026fbe12ff8
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.1.7
+  title: ""
+  date: 2024-08-20T12:47:54.210Z
+- commits:
     - subject: 'patch: Revert "Update dependency cheerio to v1.0.0" & remove local
         search override'
       hash: 0a7b286e906445631bdaf88553793932c52f6bc5
