@@ -1,4 +1,16 @@
 - commits:
+    - subject: Rename _header file to _headers
+      hash: 90389a55340472c91e85b33ab40cdaec2adcee90
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Jonathan Berger
+      nested: []
+  version: 2.1.9
+  title: ""
+  date: 2024-08-21T13:04:27.394Z
+- commits:
     - subject: Add security HTTP headers
       hash: 4abc3ab3ee65a3f45606ab15eded7a5766c6059a
       body: ""
