@@ -1,4 +1,16 @@
 - commits:
+    - subject: Rename rennovate.json to renovate.json
+      hash: e9e8a44713435ade354e5b0205be21d6b31fd03c
+      body: ""
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Kyle Harding
+      nested: []
+  version: 2.1.10
+  title: ""
+  date: 2024-08-22T19:37:03.139Z
+- commits:
     - subject: Rename _header file to _headers
       hash: 90389a55340472c91e85b33ab40cdaec2adcee90
       body: ""
