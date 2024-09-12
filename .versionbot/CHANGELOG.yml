@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency typescript to v5.6.2
+      hash: fc8d60719ea2e12e05d4af90a02067e606fd75bd
+      body: |
+        Update typescript from 5.5.4 to 5.6.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 2.1.15
+  title: ""
+  date: 2024-09-12T17:08:03.763Z
+- commits:
     - subject: Lock file maintenance
       hash: 19b1c2568e4d507a886a4e280ed01dd9236602c4
       body: |
