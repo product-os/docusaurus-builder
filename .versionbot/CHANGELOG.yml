@@ -1,4 +1,14 @@
 - commits:
+    - subject: "patch: Update regex to match both HTML & Markdown docs paths"
+      hash: d9604804ff989f5a6cf5bb64008422abf28f4a5d
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+      nested: []
+  version: 2.1.23
+  title: ""
+  date: 2024-10-30T13:04:45.485Z
+- commits:
     - subject: Lock file maintenance
       hash: 87738f4593aaa42fa058e36fb32d2fc79964cc1c
       body: |
