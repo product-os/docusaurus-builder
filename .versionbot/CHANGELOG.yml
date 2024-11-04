@@ -1,4 +1,17 @@
 - commits:
+    - subject: Lock file maintenance
+      hash: 71d3f588740fa25cc83fa22b91e23dd7b9062c21
+      body: |
+        Update 
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.24
+  title: ""
+  date: 2024-11-04T00:09:22.476Z
+- commits:
     - subject: "patch: Update regex to match both HTML & Markdown docs paths"
       hash: d9604804ff989f5a6cf5bb64008422abf28f4a5d
       body: ""
