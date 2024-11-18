@@ -1,4 +1,15 @@
 - commits:
+    - subject: Explicitly set GH_TOKEN permissions
+      hash: acfb6c73bc3c8cd809a79572a8e0f6f65d94d94f
+      body: ""
+      footer:
+        change-type: patch
+      author: Anton Belodedenko
+      nested: []
+  version: 2.1.30
+  title: ""
+  date: 2024-11-18T20:02:58.727Z
+- commits:
     - subject: Lock file maintenance
       hash: 9a38937823bded5bba61eb6535bab0d0543e4645
       body: |
