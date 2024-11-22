@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.6.2
+      hash: 15f54cb88d7a1ef34dd2d46ca3d9e218ed0d0c09
+      body: |
+        Update @docusaurus/types from 3.6.1 to 3.6.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.31
+  title: ""
+  date: 2024-11-22T18:07:36.892Z
+- commits:
     - subject: Explicitly set GH_TOKEN permissions
       hash: acfb6c73bc3c8cd809a79572a8e0f6f65d94d94f
       body: ""
