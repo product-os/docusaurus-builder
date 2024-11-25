@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.6.3
+      hash: 1c638b94aa648fd0bf6aad194f280b94135e9ad0
+      body: |
+        Update @docusaurus/types from 3.6.2 to 3.6.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.33
+  title: ""
+  date: 2024-11-25T17:09:08.389Z
+- commits:
     - subject: Lock file maintenance
       hash: f5fc6f72a81b403a4c3fcaaab4d0ef870fbd7332
       body: |
