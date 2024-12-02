@@ -1,4 +1,17 @@
 - commits:
+    - subject: Lock file maintenance
+      hash: f2f7636d91820c26d136be6a1a031f042d7b4d79
+      body: |
+        Update 
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.35
+  title: ""
+  date: 2024-12-02T01:26:38.082Z
+- commits:
     - subject: Update dependency typescript to v5.7.2
       hash: 38cb1c6d5da19e60516170e3a2e54ef8e86722ac
       body: |
