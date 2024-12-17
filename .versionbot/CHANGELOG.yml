@@ -1,4 +1,15 @@
 - commits:
+    - subject: 'patch: Revert "patch: Update regex to match both HTML & Markdown docs
+        paths"'
+      hash: 5a0a1cb8b0d6375e447e5d49c48531ad0c9591ce
+      body: ""
+      footer: {}
+      author: Vipul Gupta
+      nested: []
+  version: 2.1.36
+  title: ""
+  date: 2024-12-17T15:10:23.780Z
+- commits:
     - subject: Lock file maintenance
       hash: f2f7636d91820c26d136be6a1a031f042d7b4d79
       body: |
