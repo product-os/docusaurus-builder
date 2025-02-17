@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency typescript to v5.7.3
+      hash: 15d70c4941029957f3db3c36649215a4ca50a87d
+      body: |
+        Update typescript from 5.7.2 to 5.7.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.37
+  title: ""
+  date: 2025-02-17T20:08:06.356Z
+- commits:
     - subject: 'patch: Revert "patch: Update regex to match both HTML & Markdown docs
         paths"'
       hash: 5a0a1cb8b0d6375e447e5d49c48531ad0c9591ce
