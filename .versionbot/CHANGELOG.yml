@@ -1,4 +1,16 @@
 - commits:
+    - subject: "patch: Add Docusaurus unpublish instructions"
+      hash: 222184b3ded333672de132468d6636d6197db033
+      body: ""
+      footer:
+        Signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+        signed-off-by: Vipul Gupta (@vipulgupta2048) <vipulgupta2048@gmail.com>
+      author: Vipul Gupta (@vipulgupta2048)
+      nested: []
+  version: 2.1.39
+  title: ""
+  date: 2025-03-17T09:54:04.995Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.7.0
       hash: 2585eb02ec3e271d58633f7c66355241bf701c15
       body: |
