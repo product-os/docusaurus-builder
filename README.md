@@ -1,6 +1,6 @@
-# Balena Docusaurus Theme
+# DocuBuilder: Deploy Docusaurus Websites at Scale
 
-> The `create-react-app` version of building docusaurus websites
+> The `create-react-app` way of building and deploying docusaurus websites
 
 This is the official Docusaurus theme for balena docs.
 [Docusaurus 2](https://docusaurus.io/) is a modern static website generator that we used to generate docs.
@@ -126,6 +126,16 @@ Cloudflare Pages lets us create preview releases for each open pull request. To 
 ![](./docs/images/preview_links.png)
 
 You can find the link on the Flowzone run's Summary page or in the logs for the GitHub task `Deploy to Cloudflare`. 
+
+## How to unpublish a Docusaurus website
+
+To safely unpublish a docusaurus website, we need to undo or stop the steps taken by Flowzone to publish the Cloudflare Pages website. This can be done by following the steps below:
+
+1. Create a pull request to amend `flowzone.yml` file. Delete the `cloudflare_website` property. Once the pull request is merged, the GitHub action will stop running and the website will not be updated on Cloudflare Pages. 
+2. To remove the content from Cloudflare Pages, please navigate to `Cloudflare Pages & Workers` page and delete the project from the Cloudflare Pages dashboard.
+3. On removing the entry, Cloudflare will prompt you to also delete the DNS entry for the Cloudflare Page. Please confirm the deletion of the DNS entry as well.
+4. To prevent squatting on the Cloudflare Page, please create a new empty project of the same name to reclaim that domian. This will also help in preventing any future conflicts with the same domain name.
+5. (Optional) If needed, redirect the DNS entry to back to [balena.io](balena.io) or a new target to not lose the traffic or break the user experience. If you need help with this, please reach out to the ops team.
 
 ## Contributing 
 
