@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.9.0
+      hash: eaaf2f66cfc32337e6c2ec1c54fe561f57d5fe90
+      body: |
+        Update @docusaurus/types from 3.7.0 to 3.9.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.40
+  title: ""
+  date: 2025-09-28T16:10:18.538Z
+- commits:
     - subject: "patch: Add Docusaurus unpublish instructions"
       hash: 222184b3ded333672de132468d6636d6197db033
       body: ""
