@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency typescript to v5.9.2
+      hash: 73511271065dcc353cd1f36a0d4ec946d5131dcb
+      body: |
+        Update typescript from 5.7.3 to 5.9.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.42
+  title: ""
+  date: 2025-09-28T18:10:11.134Z
+- commits:
     - subject: Update dependency cheerio to v1.1.2
       hash: d54d37db92571ff511464c5144178d9a35ca68b7
       body: |
