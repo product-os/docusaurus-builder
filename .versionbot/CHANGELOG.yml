@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency cheerio to v1.1.2
+      hash: d54d37db92571ff511464c5144178d9a35ca68b7
+      body: |
+        Update cheerio from 1.0.0-rc.12 to 1.1.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.41
+  title: ""
+  date: 2025-09-28T17:11:30.908Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.9.0
       hash: eaaf2f66cfc32337e6c2ec1c54fe561f57d5fe90
       body: |
