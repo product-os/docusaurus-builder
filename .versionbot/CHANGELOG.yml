@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.9.1
+      hash: 67a49443c1d0391da9cfd6629b9881033bb53d65
+      body: |
+        Update @docusaurus/types from 3.9.0 to 3.9.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.43
+  title: ""
+  date: 2025-10-09T15:59:47.899Z
+- commits:
     - subject: Update dependency typescript to v5.9.2
       hash: 73511271065dcc353cd1f36a0d4ec946d5131dcb
       body: |
