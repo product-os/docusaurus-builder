@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update Node.js to v20
+      hash: 794e2955eb946aa51014093b1e1b08c318f71aca
+      body: |
+        Update node from 18.20.3 to 20.15.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.44
+  title: ""
+  date: 2026-02-17T05:23:07.803Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.9.1
       hash: 67a49443c1d0391da9cfd6629b9881033bb53d65
       body: |
