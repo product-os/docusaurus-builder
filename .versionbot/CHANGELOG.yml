@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency cheerio to v1.2.0
+      hash: 807584dfff4058b2f47d14e5f178d1afc55a8c2d
+      body: |
+        Update cheerio from 1.1.2 to 1.2.0
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.45
+  title: ""
+  date: 2026-03-24T19:07:04.807Z
+- commits:
     - subject: Update Node.js to v20
       hash: 794e2955eb946aa51014093b1e1b08c318f71aca
       body: |
