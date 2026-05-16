@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency typescript to v5.9.3
+      hash: b7935e2aada094ec38e067b303815f2c5b059580
+      body: |
+        Update typescript from 5.9.2 to 5.9.3
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.63
+  title: ""
+  date: 2026-05-16T03:44:09.528Z
+- commits:
     - subject: Update dependency @docusaurus/types to v3.9.2
       hash: 30ee347ff7bcf4c122292725009351699a8bb338
       body: |
