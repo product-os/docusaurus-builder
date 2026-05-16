@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update docusaurus monorepo to v3.10.1
+      hash: a8b264e10afa1b44046dddcd5109b7441c8b136f
+      body: |
+        Update @docusaurus/module-type-aliases from 3.6.3 to 3.10.1
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.64
+  title: ""
+  date: 2026-05-16T05:44:36.553Z
+- commits:
     - subject: Update dependency typescript to v5.9.3
       hash: b7935e2aada094ec38e067b303815f2c5b059580
       body: |
