@@ -1,4 +1,17 @@
 - commits:
+    - subject: Pin dependencies
+      hash: c0bbadb397f1ca72b0cfa7e0eb27a72e99c6fac1
+      body: |
+        Update @docusaurus/module-type-aliases
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.61
+  title: ""
+  date: 2026-05-16T01:32:08.659Z
+- commits:
     - subject: Revert flowzone pinning to master
       hash: 895c1d46bb176659137d0120a4d96c0c0704e7e9
       body: ""
