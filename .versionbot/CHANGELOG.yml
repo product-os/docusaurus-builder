@@ -1,4 +1,17 @@
 - commits:
+    - subject: Update dependency @docusaurus/types to v3.9.2
+      hash: 30ee347ff7bcf4c122292725009351699a8bb338
+      body: |
+        Update @docusaurus/types from 3.9.1 to 3.9.2
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.62
+  title: ""
+  date: 2026-05-16T02:18:16.791Z
+- commits:
     - subject: Pin dependencies
       hash: c0bbadb397f1ca72b0cfa7e0eb27a72e99c6fac1
       body: |
