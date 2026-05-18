@@ -1,4 +1,17 @@
 - commits:
+    - subject: Lock file maintenance
+      hash: 4ed127feb8bd36489fc47f99f0846f1edea939e4
+      body: |
+        Update 
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.65
+  title: ""
+  date: 2026-05-18T01:35:19.183Z
+- commits:
     - subject: Update docusaurus monorepo to v3.10.1
       hash: a8b264e10afa1b44046dddcd5109b7441c8b136f
       body: |
