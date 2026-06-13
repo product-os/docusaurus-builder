@@ -1,4 +1,17 @@
 - commits:
+    - subject: Pin dependencies
+      hash: 2506659ee392bf5a35b126e552db21881141e0aa
+      body: |
+        Update @types/react
+      footer:
+        Change-type: patch
+        change-type: patch
+      author: balena-renovate[bot]
+      nested: []
+  version: 2.1.69
+  title: ""
+  date: 2026-06-13T00:10:07.221Z
+- commits:
     - subject: Lock file maintenance
       hash: 613d7f87d04f9d7ee76397fe1547a550341fe0e2
       body: |
